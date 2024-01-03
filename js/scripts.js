@@ -11,9 +11,9 @@ function newItem() {
       let list = $('#list').append(li)
       }
     
-    //2. Crossing out an item from the list of items:
+    //2. Crossing out an item from the list of items and removing strikethrough if double-clicked again:
     li.on('dblclick', function (event){
-      li.addClass('strike')
+      li.toggleClass('strike')
     });
     
     //3(i). Adding the delete button "X":
