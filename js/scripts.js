@@ -8,7 +8,7 @@ function newItem() {
     if (!inputValue){
       alert("You must write something!");
     } else {
-      let list = $('#list').append(li)
+      $('#list').append(li)
       }
     
     //2. Crossing out an item from the list of items and removing strikethrough if double-clicked again:
