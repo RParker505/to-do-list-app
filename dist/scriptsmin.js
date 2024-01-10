@@ -1,0 +1,1 @@
+function newItem(){let t=$("<li></li>"),e=$("#input").val();t.append(e),e?$("#list").append(t):alert("You must write something!"),t.on("dblclick",function(e){t.toggleClass("strike")});let n=$("<crossOutButton></crossOutButton>");n.append(document.createTextNode("X")),t.append(n),n.on("click",function(e){t.addClass("delete")}),$("#list").sortable()}
