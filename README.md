@@ -8,10 +8,23 @@ Create a basic to-do list app with the following features:
 - The user can delete an item from the list of items.
 - The user can change the order of items in the list of items.
 
-## What's Used
+## Technologies Used
 - HTML
 - CSS
 - jQuery
+
+## Project setup
+```
+npm install
+```
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+### Compiles and minifies for production
+```
+npm run build
+```
 
 ## View the App
 https://rparker505.github.io/to-do-list-app/
